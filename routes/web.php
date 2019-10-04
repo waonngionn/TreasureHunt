@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
 
-    return view('welcome');
-});
+Route::get('/success', 'QRController@Success');
+
+Route::get('/failure', 'QRController@Failure');
