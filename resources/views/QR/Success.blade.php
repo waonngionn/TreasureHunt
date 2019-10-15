@@ -8,5 +8,6 @@
 <script src="{{secure_asset('/js/success/particle.js')}}"></script>
 <script src="{{secure_asset('/js/success/firework.js')}}"></script>
 <script src="{{secure_asset('/js/success/sketch.js')}}"></script>
+<script src="{{secure_asset('/js/success/message.js')}}"></script>
 {{-- /body --}}
 @endsection
