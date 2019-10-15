@@ -1,1 +1,3 @@
-alert("不正解です。");
+window.onload = function () {
+    alert("不正解です。");
+}
