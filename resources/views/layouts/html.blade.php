@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>@yield('title')</title>
 
-    <link href="css/index.css" rel="stylesheet">
+    <link href="{{secure_asset('/css/index.css')}}" rel="stylesheet">
 </head>
 <body>
     @yield('body')
