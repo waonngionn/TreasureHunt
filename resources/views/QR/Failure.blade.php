@@ -9,5 +9,6 @@
         <p>音声の再生に対応したブラウザをインストールしてください。</p>
     </audio>
 </div>
+<script src="{{secure_asset('/js/failure/message.js')}}"></script>
 {{-- /body --}}
 @endsection
