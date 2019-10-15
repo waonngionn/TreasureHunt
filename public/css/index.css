@@ -1,0 +1,7 @@
+body{ margin: 0; }
+
+#audio_box{
+    width: 300px;
+    margin: auto;
+    margin-top: 300px;
+}

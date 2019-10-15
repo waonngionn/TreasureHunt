@@ -10,10 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/success', 'QRController@Success');
 
 Route::get('/failure', 'QRController@Failure');
+
+Route::get('/judge/{str}', 'QRController@judge');
